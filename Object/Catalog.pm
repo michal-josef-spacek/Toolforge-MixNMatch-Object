@@ -6,7 +6,7 @@ use warnings;
 use Mo qw(build default is);
 use Mo::utils qw(check_array_object check_required);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 has count => (
 	is => 'ro',
@@ -249,6 +249,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
