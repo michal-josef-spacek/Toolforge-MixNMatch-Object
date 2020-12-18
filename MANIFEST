@@ -27,9 +27,13 @@ t/Toolforge-MixNMatch-Object-User/01-use.t
 t/Toolforge-MixNMatch-Object-User/02-version.t
 t/Toolforge-MixNMatch-Object-YearMonth/01-use.t
 t/Toolforge-MixNMatch-Object-YearMonth/02-version.t
+t/Toolforge-MixNMatch-Object/01-use.t
+t/Toolforge-MixNMatch-Object/02-version.t
 xt/Toolforge-MixNMatch-Object-Catalog/01-pod_coverage.t
 xt/Toolforge-MixNMatch-Object-Catalog/02-pod.t
 xt/Toolforge-MixNMatch-Object-User/01-pod_coverage.t
 xt/Toolforge-MixNMatch-Object-User/02-pod.t
 xt/Toolforge-MixNMatch-Object-YearMonth/01-pod_coverage.t
 xt/Toolforge-MixNMatch-Object-YearMonth/02-pod.t
+xt/Toolforge-MixNMatch-Object/01-pod_coverage.t
+xt/Toolforge-MixNMatch-Object/02-pod.t
