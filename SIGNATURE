@@ -1,0 +1,61 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.83.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA256 b21685a5799e40e5c09172c9b3ea190faf2f14b9903a7fa06629a038897e3877 Changes
+SHA256 9984f7b209d43761721f55f57d3b943c1d5308788d8d1818642db5deac235044 LICENSE
+SHA256 342f9ce4be2468620a7976e23f5f4bd3a4e638cca197f0c4b94e67a08840577a MANIFEST
+SHA256 e662b26342e408c3b8d4384a3ba4f13e17d5e47ef472f5257feeacb4589a0ddb META.yml
+SHA256 9b4224d7fd75729fc52054630cb2befa5b0e6599b57f2933fd80cc249eb60a08 Makefile.PL
+SHA256 8d9f61e41456fe556729bf700799e0771f83f49d26d3d8f78c88504953d57e60 Object.pm
+SHA256 7a292f5b7a72128908c222668c9c2ff0fe6ba1aa41767a6f0d05a623fe4092fb Object/Catalog.pm
+SHA256 4b09c7e5c4a38ae9b1a327899bd953f295aed3bca98f1bc18a2cfc936a914e34 Object/User.pm
+SHA256 13f0600a67f2bc46e1767dc603126c13adaeb3d6ffabae901d873718686b364a Object/YearMonth.pm
+SHA256 955bba16c34dd97006c4b75c5db897b0fce7141e622d460b83d7203c955c65e4 README
+SHA256 9de817fd7c83f15fc654c02900103f528049b77c96a2f9fa37cb5bf1a2912c25 examples/ex1.pl
+SHA256 67d139199c03b8bf8447a5a62f0d0b6dc1bd5bf6dbe04de6d21998c577823ed6 inc/Module/Install.pm
+SHA256 8bd506c33fb78f10f6451413e931ca23541fcc4eebe05fcb7c7c9577341223c4 inc/Module/Install/AuthorRequires.pm
+SHA256 1b5430a46a35142ef8914d8c745196fca825defc9dfa7e389299bf294613825e inc/Module/Install/AuthorTests.pm
+SHA256 6ebcc53a161dd5dc0aae69e4704575f2b00181901d768a82e26722a309cfdbe4 inc/Module/Install/Base.pm
+SHA256 d3f8c839d03fd21c197d05362dbb277cd7cadb15da6390d124b61e851f15146e inc/Module/Install/Can.pm
+SHA256 e9e72e18921c10c87bc4ea4c20af83e52015b9f5775d00ac64073042403717ca inc/Module/Install/Fetch.pm
+SHA256 a7a681bf2c9eee58a372cb642ffe42b0301d1200432ba8de9f7791cd1ecc9827 inc/Module/Install/Makefile.pm
+SHA256 aa887fa65a5eb6bbd1805706ce298b3f3cd55b353ecfd37aa7d35ae419331a49 inc/Module/Install/Metadata.pm
+SHA256 53825bc78e4c910b888160bc148c8bc211be58e02b99c8edcbf4854f95faa049 inc/Module/Install/ReadmeFromPod.pm
+SHA256 26b166ff62aacdb55317d1659f160aa4935097eea9810ea980e6d747206b5dc0 inc/Module/Install/Win32.pm
+SHA256 5f73a6851a91ea44e65b924f918743ad6e860620ad7a38a39d0295e0c5652a9f inc/Module/Install/WriteAll.pm
+SHA256 3d05d2277040dfaf4a2bb8a522d5d8394f2fbedd61ad4d67515ddd4375a67d55 t/Toolforge-MixNMatch-Object-Catalog/01-use.t
+SHA256 462a39402ed95912f5a3d2da41c4f3f4fe3da741bce9132fd7da906d452f1f41 t/Toolforge-MixNMatch-Object-Catalog/02-version.t
+SHA256 bbb365590910912b263627301d450408fbd1e566d1b2372fca34558f0da83d0f t/Toolforge-MixNMatch-Object-User/01-use.t
+SHA256 bc6c7c64fc02eede1598665d3526563fae68edb306d6c2934e3be55c26e3bf44 t/Toolforge-MixNMatch-Object-User/02-version.t
+SHA256 df059a232f2f0ef640b2975c11297e35b34032f9755ef5288ec6b3a46c61f12d t/Toolforge-MixNMatch-Object-YearMonth/01-use.t
+SHA256 46777962a9f04914e895a66c53613a33f625c07309897d54c1822f10699fb4b5 t/Toolforge-MixNMatch-Object-YearMonth/02-version.t
+SHA256 7f73f0a74f7e6eac445d0b676eb1f7e07f2459571f8bf50d9a5f6ef2c3d562a0 xt/Toolforge-MixNMatch-Object-Catalog/01-pod_coverage.t
+SHA256 d2cdcc0b81740ff0ba0b7e005c0b11a13f2447f0ac8d30d499f5d68f8546c73c xt/Toolforge-MixNMatch-Object-Catalog/02-pod.t
+SHA256 50d7620c621073134766e043f01b98e73a7b73eab220a2d84d516716c4dc42ff xt/Toolforge-MixNMatch-Object-User/01-pod_coverage.t
+SHA256 faea4a5500c32cde5782486f8099c1246e196be1eb7f4ab7b81d4570e4cff10d xt/Toolforge-MixNMatch-Object-User/02-pod.t
+SHA256 edf60eec584175d0cc888ab131c1f93f1869a67ae607f976ced85ecd7d0a5a6e xt/Toolforge-MixNMatch-Object-YearMonth/01-pod_coverage.t
+SHA256 7f8122439c951da9be6e75fe77fc95f9d2bbd803d26bbb20fb8c73ac3d4c0c12 xt/Toolforge-MixNMatch-Object-YearMonth/02-pod.t
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEAxWqUSy7qDLVZJQKKyiOZjWerHYFAl/c/xgACgkQKyiOZjWe
+rHbVCAf/eB5BRYdzBkrypXKjjq4DYW3TvTd6y0QDPKCwMwbVFPCqMvhBcTXHtBHt
+M5oMwIE5HRBZnMXzox1ZGaAL0p0R5TZae/eSisyrpkwRBo7xWi29bPPtiFeFnFo2
+0bDpLHBvh/2oF+bQ09E2nGuypCRqv7yBOWks38wDAehsQhXs9i4qfTOS/Sd4eJoy
+9q8TasQB9FblA/CbQGDyqYUxerFcvVYyL3bI5WS9x2jvdOQohY3CoRT7AtjAUrty
+bqq1DMIcNiNLtSGaAIzi/6NRIAsiMb3ma96tGu+v+dIUu3jRfEKjnBS/1bW1nhDf
+raQhLiPt9HJgWv3Nsubt3FaXoJXaJw==
+=e1YK
+-----END PGP SIGNATURE-----

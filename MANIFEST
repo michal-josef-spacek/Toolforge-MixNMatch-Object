@@ -20,6 +20,7 @@ Object/Catalog.pm
 Object/User.pm
 Object/YearMonth.pm
 README
+SIGNATURE
 t/Toolforge-MixNMatch-Object-Catalog/01-use.t
 t/Toolforge-MixNMatch-Object-Catalog/02-version.t
 t/Toolforge-MixNMatch-Object-User/01-use.t
