@@ -1,4 +1,4 @@
-0.02
+0.02 2020-12-19T02:33:55+01:00
  - Add test of Catalog and User constructor.
  - Fix tests.
  - Fix author tests and BUILD doc.
