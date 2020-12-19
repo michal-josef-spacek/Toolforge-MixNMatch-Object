@@ -1,6 +1,7 @@
 0.02
  - Add test of Catalog and User constructor.
  - Fix tests.
+ - Fix author tests and BUILD doc.
  - Rewrite User and YearMonth to Mo::utils.
 
 0.01 2020-12-18T20:12:16+01:00
