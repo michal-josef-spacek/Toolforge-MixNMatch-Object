@@ -23,8 +23,10 @@ README
 SIGNATURE
 t/Toolforge-MixNMatch-Object-Catalog/01-use.t
 t/Toolforge-MixNMatch-Object-Catalog/02-version.t
+t/Toolforge-MixNMatch-Object-Catalog/03-new.t
 t/Toolforge-MixNMatch-Object-User/01-use.t
 t/Toolforge-MixNMatch-Object-User/02-version.t
+t/Toolforge-MixNMatch-Object-User/03-new.t
 t/Toolforge-MixNMatch-Object-YearMonth/01-use.t
 t/Toolforge-MixNMatch-Object-YearMonth/02-version.t
 t/Toolforge-MixNMatch-Object/01-use.t
