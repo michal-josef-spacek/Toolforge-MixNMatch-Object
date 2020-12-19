@@ -1,5 +1,6 @@
 0.02
  - Fix tests.
+ - Rewrite User and YearMonth to Mo::utils.
 
 0.01 2020-12-18T20:12:16+01:00
  - First version.

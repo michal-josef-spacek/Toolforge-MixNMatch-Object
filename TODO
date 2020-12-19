@@ -2,8 +2,6 @@ TODO
 ====
 1. V Katalogu udelat check na cislo v count.
 2. V Katalogu pridat id katalogu?
-3. User prepsat na check_required().
-4. YearMonth prepsat na check_required().
 5. Dokumentace pro User.
 6. Dokumentace pro YearMonth.
 7. Testy
@@ -12,3 +10,8 @@ TODO
 
 Applied
 =======
+3. User prepsat na check_required().
+OK [20201219] skim
+
+4. YearMonth prepsat na check_required().
+OK [20201219] skim
