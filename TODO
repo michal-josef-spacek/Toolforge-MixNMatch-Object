@@ -2,7 +2,6 @@ TODO
 ====
 1. V Katalogu udelat check na cislo v count.
 2. V Katalogu pridat id katalogu?
-7. Testy
 8. V Katalogu type musi byt Q entita.
 9.
 
@@ -18,4 +17,7 @@ OK [20201219] skim
 OK [20201220] skim
 
 6. Dokumentace pro YearMonth.
+OK [20201220] skim
+
+7. Testy
 OK [20201220] skim
