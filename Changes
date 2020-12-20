@@ -1,5 +1,6 @@
 0.03
  - Add documentation for User.
+ - Add documentation for YearMonth.
 
 0.02 2020-12-19T02:33:55+01:00
  - Add test of Catalog and User constructor.

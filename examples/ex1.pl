@@ -3,60 +3,30 @@
 use strict;
 use warnings;
 
-use Toolforge::MixNMatch::Object::Catalog;
-use Toolforge::MixNMatch::Object::User;
 use Toolforge::MixNMatch::Object::YearMonth;
 
 # Object.
-my $obj = Toolforge::MixNMatch::Object::Catalog->new(
-        'count' => 10,
-        'type' => 'Q5',
-        'users' => [
-                Toolforge::MixNMatch::Object::User->new(
-                        'count' => 6,
-                        'uid' => 1,
-                        'username' => 'Skim',
-                ),
-                Toolforge::MixNMatch::Object::User->new(
-                        'count' => 4,
-                        'uid' => 2,
-                        'username' => 'Foo',
-                ),
-        ],
-        'year_months' => [
-                Toolforge::MixNMatch::Object::YearMonth->new(
-                        'count' => 2,
-                        'month' => 9,
-                        'year' => 2020,
-                ),
-                Toolforge::MixNMatch::Object::YearMonth->new(
-                        'count' => 8,
-                        'month' => 10,
-                        'year' => 2020,
-                ),
-        ],
+my $obj = Toolforge::MixNMatch::Object::YearMonth->new(
+        'count' => 6,
+        'month' => 1,
+        'year' => 2020,
 );
 
-# Get count.
+# Get count for year/month statistics.
 my $count = $obj->count;
 
-# Get type.
-my $type = $obj->type;
+# Get month of statistics.
+my $month = $obj->month;
 
-# Get year months stats.
-my $year_months_ar = $obj->year_months;
-
-# Get users.
-my $users_ar = $obj->users;
+# Get year of statistics.
+my $year = $obj->year;
 
 # Print out.
 print "Count: $count\n";
-print "Type: $type\n";
-print "Number of month/year statistics: ".(scalar @{$year_months_ar})."\n";
-print "Number of users: ".(scalar @{$users_ar})."\n";
+print "Month: $month\n";
+print "Year: $year\n";
 
 # Output:
-# Count: 10
-# Type: Q5
-# Number of month/year statistics: 2
-# Number of users: 2
+# Count: 6
+# Month: 1
+# Year: 2020
