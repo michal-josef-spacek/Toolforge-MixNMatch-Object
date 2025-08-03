@@ -27,6 +27,7 @@ no_index:
 requires:
   Mo: 0
   Mo::utils: 0.03
+  Mo::utils::Array: 0
   perl: 5.6.2
 resources:
   bugtracker: https://github.com/michal-josef-spacek/Toolforge-MixNMatch-Object/issues

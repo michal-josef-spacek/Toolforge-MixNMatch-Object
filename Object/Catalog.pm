@@ -4,7 +4,8 @@ use strict;
 use warnings;
 
 use Mo qw(build default is);
-use Mo::utils qw(check_array_object check_required);
+use Mo::utils qw(check_required);
+use Mo::utils::Array qw(check_array_object);
 
 our $VERSION = 0.04;
 
@@ -34,12 +35,10 @@ sub BUILD {
 	check_required($self, 'type');
 
 	# Check year month.
-	check_array_object($self, 'year_months', 'Toolforge::MixNMatch::Object::YearMonth',
-		'Year/month');
+	check_array_object($self, 'year_months', 'Toolforge::MixNMatch::Object::YearMonth');
 
 	# Check users.
-	check_array_object($self, 'users', 'Toolforge::MixNMatch::Object::User',
-		'User');
+	check_array_object($self, 'users', 'Toolforge::MixNMatch::Object::User');
 
 	return;
 }
@@ -147,11 +146,20 @@ instances.
          From Mo::utils::check_required():
                  Parameter 'count' is required.
                  Parameter 'type' is required.
-         From Mo::utils::check_array_object():
+
+         From Mo::utils::Array::check_array_object():
                  Parameter 'users' must be a array.
+                         Value: %s
+                         Reference: %s
+                 Parameter 'users' with array must contain 'Toolforge::MixNMatch::Object::Catalog::User' objects.
+                         Value: %s
+                         Reference: %s
                  Parameter 'year_months' must be a array.
-                 User isn't 'Toolforge::MixNMatch::Object::Catalog::User' object.
-                 Year/month isn't 'Toolforge::MixNMatch::Object::Catalog::YearMonth' object.
+                         Value: %s
+                         Reference: %s
+                 Parameter 'year_months' with array must contain 'Toolforge::MixNMatch::Object::Catalog::YearMonth' objects.
+                         Value: %s
+                         Reference: %s
 
 =head1 EXAMPLE
 
@@ -219,7 +227,8 @@ instances.
 =head1 DEPENDENCIES
 
 L<Mo>,
-L<Mo::utils>.
+L<Mo::utils>,
+L<Mo::utils::Array>.
 
 =head1 SEE ALSO
 
