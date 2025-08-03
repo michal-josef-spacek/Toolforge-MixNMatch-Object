@@ -1,3 +1,5 @@
+0.05
+
 0.04 2025-08-03T10:26:14+02:00
  - Move check_array_object() to Mo::utils::Array.
  - Rename example files to better names.
