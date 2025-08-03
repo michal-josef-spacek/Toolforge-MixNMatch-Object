@@ -121,6 +121,8 @@ Returns number.
 
 =head1 EXAMPLE
 
+=for comment filename=create_year_month_and_print_out.pl
+
  use strict;
  use warnings;
 
